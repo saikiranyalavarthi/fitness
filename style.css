@@ -1,0 +1,92 @@
+
+nav{
+    background: black;
+    color: white;
+}
+
+nav {
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    justify-content: space-between;
+    margin: 40px;
+}
+ul li:hover{
+    cursor: pointer;
+    color: brown;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     background: url(R.jpeg);
+     width: 1500px;
+     height: 750px;
+background-position: inherit;
+background-position-y: initial;
+  
+}
+h1{
+    text-align: center;
+    color: brown;
+    margin-top: 200px;
+}
+.line{
+    width: 180px;
+    border: 1px solid rgb(24, 38, 196);
+    height: 1px;
+    margin-left: 550px;
+    background: blue;
+}
+p{
+    color: brown;
+    text-align: center;
+    font-size: 22px;
+}
+button{
+    background: brown;
+    width: 150px;
+    height: 50px;
+    border: 3px solid brown;
+    border-radius: 7px;
+    align-items: center;
+    margin-left: 650px;
+    font-size: 20px;
+    color: white;
+}
+.start {
+ 
+	background-color: yellow;
+	border: none;
+	outline: none;
+	padding: 0.8rem 2rem;
+	transition: .5s;
+text-align: center;
+width: 150px;
+color: black;
+margin-left: 630px;
+}
+.start:hover{
+    color: brown;
+   border-bottom: hotpink;
+  
+    cursor: pointer;
+  
+ 
+
+}
+#st{
+    text-decoration: none;
+  color: black;
+}
+a:hover{
+color: brown;
+}
+a{
+    text-decoration: none;
+  color: white;
+}
